@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="au.edu.rmit.PersonTest" time="0.039" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="au.edu.rmit.PersonTest" time="0.012" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="23"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/test-classes:/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/classes:/Users/aiman/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/aiman/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/aiman/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/aiman/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/aiman/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/aiman/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
-    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="user.timezone" value="Australia/Melbourne"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="23"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="user.country" value="AU"/>
-    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/surefire/surefirebooter-20250604152313056_3.jar /Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/surefire 2025-06-04T15-23-11_726-jvmRun1 surefire-20250604152313056_1tmp surefire_0-20250604152313056_2tmp"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/surefire/surefirebooter-20250604161249625_3.jar /Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/surefire 2025-06-04T16-12-49_527-jvmRun1 surefire-20250604161249625_1tmp surefire_0-20250604161249625_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="au.edu.rmit.PersonTest#testAddPerson_InvalidAddressFormat_ShouldReturnFalse"/>
     <property name="surefire.test.class.path" value="/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/test-classes:/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/classes:/Users/aiman/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/aiman/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/aiman/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/aiman/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/aiman/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/aiman/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/aiman"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2025-01-21"/>
-    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -30,10 +30,10 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/surefire/surefirebooter-20250604152313056_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry/target/surefire/surefirebooter-20250604161249625_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="java.runtime.version" value="21.0.6+7-LTS"/>
     <property name="user.name" value="aiman"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
@@ -41,11 +41,12 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="java.vendor.version" value="Temurin-21.0.6+7"/>
+    <property name="maven.ext.class.path" value="/Users/aiman/.vscode/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
     <property name="localRepository" value="/Users/aiman/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/qb/qhxg425j02bdkmtdd12j_bkh0000gn/T/"/>
-    <property name="java.version" value="23.0.2"/>
+    <property name="java.version" value="21.0.6"/>
     <property name="user.dir" value="/Users/aiman/Software Engineering Fundamentals/Assingment 4/Assignment 4/RoadRegistery/roadregistry"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -53,65 +54,14 @@
     <property name="java.library.path" value="/Users/aiman/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Homebrew"/>
-    <property name="java.vm.version" value="23.0.2"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.6+7-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="67.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testAddPerson_InvalidBirthdateFormat_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0.011">
-    <system-out><![CDATA[Error: Birthdate must follow format DD-MM-YYYY.
-]]></system-out>
-  </testcase>
-  <testcase name="testAddDemeritPoints_ValidPoints_ShouldReturnSuccess" classname="au.edu.rmit.PersonTest" time="0.009"/>
-  <testcase name="testUpdatePersonalDetails_ValidUpdate_ShouldReturnTrue" classname="au.edu.rmit.PersonTest" time="0.004">
-    <system-out><![CDATA[Update successful.
-]]></system-out>
-  </testcase>
-  <testcase name="testAddDemeritPoints_PointsBelowRange_ShouldReturnFailed" classname="au.edu.rmit.PersonTest" time="0">
-    <system-out><![CDATA[Error: Points must be between 1 and 6.
-]]></system-out>
-  </testcase>
-  <testcase name="testAddPerson_InsufficientSpecialChars_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0">
-    <system-out><![CDATA[Error: ID must contain at least 2 special characters between characters 3 and 8.
-]]></system-out>
-  </testcase>
-  <testcase name="testUpdatePersonalDetails_Under18AddressChange_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0.001">
-    <system-out><![CDATA[Error: Person is under 18; address cannot be changed.
-]]></system-out>
-  </testcase>
-  <testcase name="testAddDemeritPoints_ExceedPointsUnder21_ShouldSetSuspended" classname="au.edu.rmit.PersonTest" time="0">
-    <system-out><![CDATA[Notice: License suspended due to excessive demerit points.
-]]></system-out>
-  </testcase>
-  <testcase name="testUpdatePersonalDetails_BirthdateChangeWithOtherChanges_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0">
-    <system-out><![CDATA[Error: If changing birthday, no other fields (ID, name, address) can be modified.
-]]></system-out>
-  </testcase>
-  <testcase name="testUpdatePersonalDetails_InvalidNewDetails_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0.001">
-    <system-out><![CDATA[Error: Invalid ID format. Must start with digits 2–9, contain 2+ special characters (between chars 3–8), and end with 2 uppercase letters.
-Error: Updated details failed validation.
-]]></system-out>
-  </testcase>
-  <testcase name="testAddPerson_ValidPerson_ShouldReturnTrue" classname="au.edu.rmit.PersonTest" time="0.001"/>
-  <testcase name="testAddDemeritPoints_ExceedPointsOver21_ShouldSetSuspended" classname="au.edu.rmit.PersonTest" time="0">
-    <system-out><![CDATA[Error: Points must be between 1 and 6.
-]]></system-out>
-  </testcase>
-  <testcase name="testUpdatePersonalDetails_IDStartsWithEvenDigitChangeID_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0">
-    <system-out><![CDATA[Error: ID starts with an even digit and cannot be changed.
-]]></system-out>
-  </testcase>
-  <testcase name="testAddPerson_InvalidPersonID_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0">
-    <system-out><![CDATA[Error: Invalid ID format. Must start with digits 2–9, contain 2+ special characters (between chars 3–8), and end with 2 uppercase letters.
-]]></system-out>
-  </testcase>
-  <testcase name="testAddPerson_InvalidAddressFormat_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0">
+  <testcase name="testAddPerson_InvalidAddressFormat_ShouldReturnFalse" classname="au.edu.rmit.PersonTest" time="0.007">
     <system-out><![CDATA[Error: Address must follow the format Street Number|Street|City|State|Country.
-]]></system-out>
-  </testcase>
-  <testcase name="testAddDemeritPoints_PointsAboveRange_ShouldReturnFailed" classname="au.edu.rmit.PersonTest" time="0">
-    <system-out><![CDATA[Error: Points must be between 1 and 6.
 ]]></system-out>
   </testcase>
 </testsuite>
