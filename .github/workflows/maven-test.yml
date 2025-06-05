@@ -22,4 +22,5 @@ jobs:
         distribution: 'temurin'
 
     - name: Build and run tests with Maven
+      working-directory: roadregistry
       run: mvn -B clean verify
