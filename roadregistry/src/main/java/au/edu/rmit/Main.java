@@ -5,6 +5,8 @@ import java.time.format.DateTimeFormatter;
 
 public class Main {
 public static void main(String[] args) {
+    // Test cases 
+    
     // ==== ADD PERSON ====
     System.out.println("Adding person (invalid ID):");
     Person personFailAdd = new Person();
