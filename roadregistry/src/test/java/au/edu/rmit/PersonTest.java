@@ -28,7 +28,7 @@ public class PersonTest {
     public void testAddPerson_ValidPerson_ShouldReturnTrue() {
         assertTrue(person.addPerson());
     }
-
+    
     @Test
     public void testAddPerson_InvalidPersonID_ShouldReturnFalse() {
         person.setPersonID("12a$%AB");

@@ -52,6 +52,5 @@ public static void main(String[] args) {
     System.out.println("Demerit update result: " + demeritSuccess);
     
 }
-} // workflow showcase
-
+} // test1
 // Trigger workflow
