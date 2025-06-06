@@ -50,6 +50,7 @@ public static void main(String[] args) {
     LocalDate goodOffenseDate = LocalDate.parse("02-06-2023", DateTimeFormatter.ofPattern("dd-MM-yyyy"));
     String demeritSuccess = personSuccessAdd.addDemeritPoints(goodOffenseDate, 5); // ✅ Valid
     System.out.println("Demerit update result: " + demeritSuccess);
+    System.out.println("workflow test");
 }
 }
 // Trigger workflow
